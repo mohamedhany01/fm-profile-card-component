@@ -26,12 +26,18 @@ Users should be able to:
 
 - Desktop
 
+![Desktop Profile Card Component](https://user-images.githubusercontent.com/61619208/141082328-70520043-2946-4365-a9bd-191fdd26d4c4.png)
+
+
 - Mobile
+
+![Mobile Profile Card Component](https://user-images.githubusercontent.com/61619208/141082335-8b6d2f89-6bf3-40ba-827e-4020f6cdbbf3.png)
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/profile-card-component-using-html-sass-bootstrap-and-webpack-Qyn_5nFHy
+- Live Site URL: https://front-profilecardcomponent.netlify.app
 
 ## My process
 
