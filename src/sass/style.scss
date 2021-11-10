@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Kumbh Sans";
+    src: url("../fonts/KumbhSans-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Kumbh Sans";
+    src: url("../fonts/KumbhSans-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+$backgroundColor: hsl(185, 75%, 39%);
+$mainColor: hsl(229, 23%, 23%);
+$smallTextColor: hsl(227, 10%, 46%);
+
+body {
+    background-color: $backgroundColor;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.pattern-top {
+    // top: -525px;
+    // right: 119px;
+    // top: -30rem;
+    // right: 49rem;
+    top: -108%;
+    right: 51%;
+    z-index: -1;
+}
+
+.pattern-bottom {
+    bottom: -120%;
+    left: 52%;
+    z-index: -1;
+}
+
+$borderRaduis: 15px;
+
+.card-conponent {
+    width: 350px;
+    background-color: #fff;
+    border-radius: $borderRaduis;
+
+    // Center image
+    .avater {
+        top: 100% !important
+    }
+
+    .img-header img {
+        border-top-left-radius: $borderRaduis;
+        border-top-right-radius: $borderRaduis;
+    }
+
+    .info {
+        margin-top: 4.5rem;
+    }
+
+    h1 {
+        color: $mainColor;
+        font-family: "Kumbh Sans", sans-serif;
+        font-weight: 700;
+    }
+
+    .numbers {
+        color: $mainColor;
+        font-family: "Kumbh Sans", sans-serif;
+        font-weight: 700;
+    }
+
+    .des {
+        font-size: 0.6rem;
+        letter-spacing: 1px;
+    }
+
+}
+
+hr {
+    background-color: $mainColor;
+}
+
+.age,
+.country,
+.des {
+    color: $smallTextColor;
+}
